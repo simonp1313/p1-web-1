@@ -1,0 +1,979 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    
+    margin: auto;
+}
+
+/* Primeira Página */
+
+.barra{
+    
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 2%;
+    margin: 0 auto;
+    width: 100vw;
+    position: fixed;
+    flex: 0 1 auto;
+    z-index: 1;
+}
+
+.logo{
+    
+    width: 130px;
+    height: 85px;
+}
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20vw;
+    flex: 0 1 auto;
+    
+}
+
+nav ul{
+
+    list-style: none;
+}
+
+nav ul li{
+    
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+nav ul li a{
+    
+    text-decoration: none;
+    font-size: 1,7vh;
+    color: white;
+    padding-right: 30px;
+    font-family: 'Bruno Ace SC';
+    margin-left: 30px;
+}
+
+nav ul li a:hover{
+    
+    color: #888888;
+    
+}
+
+
+.navegacao{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    height: 600px;
+    width: 100%;
+}
+
+.bemvindo{
+    
+    height: 600px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.1);
+    position: absolute;
+    background: linear-gradient(
+        180deg, black, transparent
+    );
+    
+}
+
+.galaxia{
+    
+    width: 100%;
+    height: 600px;
+    position: relative;
+    
+}
+
+.txt1{
+    
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 3%;
+    font-family: 'Outfit';
+    
+}
+
+.txt2{
+    
+    color: white;
+    font-size: 23px;
+    font-family: 'Bruno Ace SC';
+    text-align: center;
+    margin-left: 60px;
+  
+}
+
+.txt2:hover{
+    
+    color: #888888;
+    
+}
+
+.txt3{
+    
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Outfit';
+    padding-top: 10%;
+    transform: translateX(0px);
+    animation: flutuar 6s ease-out infinite;
+}
+
+.meunome{
+    
+    display: flex;
+    justify-content: flex-start;
+    height: 600px ;
+    width: 100%;
+    
+}
+
+.terra{
+    
+    width: 100%;
+    height: 600px;
+    padding-top: 95px;
+    position: relative;
+}
+
+.txt4{
+    
+    position: absolute;
+    padding-top: 260px;
+    padding-left: 100px;
+    color: white;
+    font-family: 'Outfit';
+ 
+}
+
+@keyframes flutuar{
+
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.txt5{
+    
+    font-size: 40px;
+    transform: translateX(0px);
+    animation: flutuar 6s ease-out infinite;
+    
+}
+
+html{
+    
+    scroll-behavior: smooth;
+}
+
+.minhafoto{
+    
+    border-radius: 1000px;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    margin-left:-250px;
+  
+
+}
+
+.divfoto{
+    
+    position: absolute;
+    padding-left: 200px; 
+    background-color: green;
+    margin-top: 240px;
+    margin-left: 75%;
+    
+}
+
+.sobremim{
+
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    border-color: none;
+ 
+
+}
+
+
+.lua{
+
+    width: 400px;
+    height: auto;
+   
+}
+
+.divlua{
+
+    margin-left: 100px;
+    padding-left: 25%;
+    padding-top: 10%;
+    height: auto;
+    width: 400px;
+}
+
+
+.txt6{
+
+    color: white;
+    font-family: 'Outfit';
+    padding-left: 100px;
+    font-size: 40px;
+    width: 400px;
+    padding-top: 40%;
+    transform: translateX(0px);
+    animation: flutuar 6s ease-out infinite;
+
+}
+
+.txt7{
+
+    color: white;
+    font-family: 'Outfit';
+    padding-left: 100px;
+    width: 400px;
+  
+}
+
+.formacoes{
+    
+    background-color: black;
+    height: auto;
+    padding: 3%;
+}
+
+.f{
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+
+.curso1{
+    
+    border-radius: 1000px;
+    width: 120px;
+    height: 110px;
+    display:flex;
+    flex-direction: column;
+
+    
+}
+
+.txt8{
+    
+    color: white;
+    font-family: 'Outfit';
+    font-size: 40px;
+    text-align: center;
+    transform: translateX(0px);
+    animation: flutuar 6s ease-out infinite;
+    padding-top: 120px;
+}
+
+.txt9{
+    
+    color: white;
+    font-family: 'Outfit';
+    text-align: center;
+    padding-top: 20px;
+}
+
+.curso{
+    
+    width: 150px;
+    height: 300px;
+    font-family: 'Outfit';
+    
+}
+
+.redessociais{
+    
+    display: flex;
+    width: 100%;
+    
+}
+
+.espaco2{
+    
+    width: 100%;
+    position: relative;
+    
+}
+
+.logo2{
+    
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    display:flex;
+
+}
+
+.logoers{
+    
+    position: absolute;
+    display:flex;
+    padding-left: 50%;
+    margin-left: -140px;
+    padding-top: 20px;    
+    flex-direction: column;
+
+}
+
+.insta{
+    
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 120px;
+}
+
+.icy{
+    
+    position: absolute;
+}
+
+.face{
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 220px;
+      
+}
+
+.ytb{
+    
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 220px;
+}
+
+@media (max-width: 450px){
+
+
+    .galaxia{
+        
+        height: 500px;
+        
+    }
+    
+    .navegacao{
+        
+        height: 500px;
+    }
+
+    .sobremim{
+    
+        height: 600px;
+        width: 100%;
+    
+    }
+    .lua{
+        
+        width: 150px;
+        height: auto;
+        margin-left: -130px;
+        
+    }
+    
+    .divlua{
+        
+        padding-top: 400px;
+        margin-left: -100px;
+        
+        
+    }
+    
+    .divfoto{
+        
+        
+        margin-left: 150px;
+        margin-top: 300px;
+        
+    }
+    
+    .minhafoto{
+        
+        width: 150px;
+        height: 150px;
+    }
+    
+    .navegacao{
+        
+        padding-top: 100px;
+    }
+    
+    .txt6{
+        
+        font-size: 40px;
+        margin-left: -50px;
+    }
+    
+    .txt7{
+        
+        margin-left: -50px;
+        
+    }
+    
+    .txt2{
+        
+        margin-top: 10px;
+        align-text:center;
+        display: flex;
+        flex-direction: column;
+        margin-left: -20px;
+    }
+    
+    
+    
+    .txt4{
+        
+        margin-left: -50px;
+        margin-top: -80px;
+    }
+    
+    nav ul li a{
+        
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        
+    }
+    
+    .terra{
+        
+        height: 550px;
+    }
+    
+    .meunome{
+        
+        height: 550px;
+        flex-direction: column;
+    }
+    
+    .logo2{
+        
+        width: 160px;
+        height: 90px;
+        margin-left: 60px;
+     
+    }
+    
+    .insta{
+        
+        width: 40px;
+        height: 40px;
+        margin-top: 100px;
+        
+    }
+    
+    .face{
+        
+        width: 40px;
+        height: 40px;
+        margin-top: 100px;
+        
+    }
+    
+    .ytb{
+        
+        width: 80px;
+        height: 80px;
+        margin-top: 80px;
+        
+    }
+  
+}
+
+
+
+/* Segunda Página */
+
+
+.divhardskills{
+    
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.espaco3{
+    
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.txt10{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    padding-top: 80px;
+}
+
+.divdasbarras{
+    
+    display: flex;
+    padding: 3%;
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.barras{
+    
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    padding: 3%;
+    position: absolute;
+    height: 300px;
+}
+
+.txt11{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 25px;
+    position: absolute;
+}
+
+.percentual1{
+    
+    height: 6px;
+    width: 400px;
+    margin-top: 40px;
+    background-color: white;
+    position: absolute;
+}
+
+.txt12{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.percentual2{
+    
+    height: 6px;
+    width: 400px;
+    background-color: white;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.txt13{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.percentual3{
+    
+    height: 6px;
+    width: 400px;
+    background-color: white;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.txt14{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 180px;
+}
+
+.percentual4{
+    
+    height: 6px;
+    width: 400px;
+    background-color: white;
+    margin-top: 220px;
+    position: absolute;
+}
+
+.grafico{
+    
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    margin-left: 520px;
+    
+}
+
+.pizza{
+    
+    width: 250px;
+    height: 250px;
+}
+
+.cor1{
+    
+    background-color: #2D8BBA;
+    height: 6px;
+    width: 140px;
+}
+
+.cor2{
+    
+    background-color: #E97A05;
+    height: 6px;
+    width: 120px ;
+}
+
+.cor3{
+    
+    background-color: #F0CB0A;
+    height: 6px;
+    width: 80px ;
+}
+
+.cor4{
+    
+    background-color: #DF0D06;
+    height: 6px;
+    width: 60px;
+}
+
+.txt15{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    padding-top: 140px;
+    }
+
+@media (max-width: 450px){
+
+
+    .espaco3{
+        
+        height: 1000px;
+    }
+        
+    
+    .divsdasbarras{
+        
+        margin-top: 30px ;
+        
+    }
+    
+    .percentual1{
+        
+        width: 200px;
+    }
+    .cor1{
+        
+        width: 110px;
+    }
+    
+    .percentual2{
+        
+        width: 200px;
+    }
+    
+    .cor2{
+        
+        width: 90px;
+    }
+    
+    .percentual3{
+        
+        width: 200px;
+    }
+    
+    .cor3{
+        
+        width: 30;
+    }
+    
+    .percentual4{
+        
+        width: 200px;      
+    }
+    
+    .cor4{
+        
+        width: 30px;
+    }
+    
+    .grafico{
+        
+        margin-left: 0px;
+        margin-top: 400px;
+        
+    }
+    
+    .txt15{
+        
+        font-size: 20px;
+    }
+}
+
+
+
+/* Início Página3*/
+
+
+.divdosprojetos{
+    
+    
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    flex-direction: column;
+}
+
+.linha1{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.linha2{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt16{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.txt17{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 20px;
+    
+}
+
+.projeto2{
+    
+    margin-left: 10px;
+    
+}
+
+.projeto3{
+    
+    margin-left: 10px;
+}
+
+.projeto5{
+    
+    margin-left: 10px;
+    
+}
+
+.projeto6{
+    
+    margin-left: 10px;
+}
+
+.ftp1{
+    
+    width: 200px;
+    height: 200px;
+}
+
+.ftp2{
+    
+    width: 200px;
+    height: 200px;
+}
+
+.ftp3{
+    
+    width: 200px;
+    height: 200px;
+}
+
+.ftp4{
+    
+    width: 200px;
+    height: 200px;
+}
+
+.ftp5{
+    
+    width: 200px;
+    height: 200px;
+}
+
+@media(max-width: 450px){
+
+    .ftp1{
+        
+        width: 100px;
+        height: 100px;
+    }
+    
+    .ftp2{
+        
+        width: 100px;
+        height: 100px;
+    }
+    
+    .ftp3{
+    
+    width: 100px;
+    height: 100px;
+    }
+
+  .ftp4{
+    
+    width: 100px;
+    height: 100px;
+    }
+
+ .ftp5{
+    
+    width: 100px;
+    height: 100px;
+    }
+   
+}
+
+/* Início Tela 4 */
+
+.divcontato{
+    
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+.minhasinfo{
+    
+    padding-top: 30px;
+}
+
+.form{
+    
+    padding-top: 30px;
+}
+
+.txt18{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 20px;
+}
+
+
+.txt19{
+    
+    font-family:'Outfit';
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.borda{
+    
+    border-radius: 30px;
+}
+
+.botao{
+    
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'Outfit';
+    text-align: center;
+    
+}
+
+.botao:hover{
+    
+    background-color:#888888; 
+}
+
+@media(max-width: 450px){
+
+    .divcontato{
+        
+        flex-direction: column;
+    }
+    
+}
+
+
+    
+
